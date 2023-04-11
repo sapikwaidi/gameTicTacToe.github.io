@@ -10,6 +10,17 @@
   body {
     margin: 0;
   }
+
+  .container{
+    background-color: rgb(248, 176, 200);
+  }
+
+  .borderan{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    
+  }
   
   .board {
     width: 100vw;
@@ -61,13 +72,13 @@
   .cell.x::before,
   .cell.x::after,
   .cell.circle::before {
-    background-color: black;
+    background-color: rgb(69, 2, 2);
   }
   
   .board.x .cell:not(.x):not(.circle):hover::before,
   .board.x .cell:not(.x):not(.circle):hover::after,
   .board.circle .cell:not(.x):not(.circle):hover::before {
-    background-color: lightgrey;
+    background-color: rgb(78, 2, 145);
   }
   
   .cell.x::before,
